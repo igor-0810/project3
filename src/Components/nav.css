@@ -1,0 +1,38 @@
+.my-navbar{background-color: #421782;position: relative;width: 100%;position: fixed;z-index: 2;
+     display: flex; justify-content: space-between;align-items: center; height: 80px; border-bottom: 1px solid #331561;}
+
+.menu-div{margin-left:20px; display: flex;align-items: center;}
+.menu-div:hover{cursor: pointer;}
+.menu-icon{width:25px}
+.crta{width: 100%;height: 2px;background-color: #fcd232; margin-bottom: 3px;}
+.crta:last-child{margin-bottom: 0;}
+.menu-div span{margin-left: 5px; color: #fcd232; font-size: 15px;}
+
+.logo{height: 40px;position: absolute;left: 50%; transform: translateX(-50%);}
+.logo img{ height: 100%;}
+
+.nav-links{margin-right: 20px;}
+.obuka-button, .vraboti-button{margin: 10px; border-radius: 3px;padding: 10px;font-size: 12px;font-weight: bold;}
+.obuka-button:hover, .vraboti-button:hover{text-decoration: none; color: #421782;}
+.obuka-button{background-color: #fcd232;color: black;}
+.vraboti-button{background-color: black; color: #fcd232;}
+
+.myMenu{height: 100vh; background-color: white; width: 25%;position: absolute; top: 0;}
+.open-menu-heder{height: 60px; display: flex; justify-content: space-between;
+     align-items: center; height: 80px; padding: 0 10px;margin-bottom: 50px;}
+.open-menu-heder span {font-weight: bold;}
+.open-menu-heder span:hover{cursor: pointer;}
+.logo-menu-heder{height: 30px; margin-left: 30px;}
+.logo-menu-heder img{height: 100%;}
+
+.myMenu ul{list-style: none; padding-left: 0;}
+.myMenu ul li{padding-left: 40px; border-bottom: 1px solid lightgrey; margin-bottom: 15px;padding-bottom: 10px;}
+
+.myMenu ul li a {color: black; font-weight: bold;}
+.myMenu ul li a:hover{text-decoration: none;}
+
+.bg-zatemnet{height: 100vh; width: 100%; position: absolute; top: 0; background-color:  rgba(0, 0, 0, 0.5);}
+
+@media(max-width:390px){
+     .logo{transform: translateX(0); right: 30px !important;}
+}

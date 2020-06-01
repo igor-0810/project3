@@ -1,0 +1,24 @@
+.single-page .my-navbar{background-color: inherit; border-bottom: none;}
+.page-bg{height: 80vh; 
+    -webkit-clip-path: polygon(0 46%, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 77%, 0 100%)}
+
+.div-info{width: 80%; margin: 60px auto;}
+.div-info h1{margin-bottom: 20px;}
+.results{display: flex; background-color: lightgrey; justify-content: space-around;
+     border-radius: 5px; padding: 30px; margin-bottom: 40px;}
+.results i{margin-right: 5px;}
+.results p{font-size: 15px; font-weight: bold;margin-bottom: 0;}
+.results span{font-size: 12px; margin-left: 20px;}
+
+.single-page .footer-mainDIv{margin-top: 0;}
+
+.chekor-div{border-bottom: 1px solid lightgray;margin-bottom: 25px;}
+
+
+@media(max-width:426px){
+    /* .single-page .div-info .results .div-icons{width: 100% !important;}
+     */
+    .results{flex-direction: column;}
+
+}
